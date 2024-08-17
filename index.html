@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIET Attendance Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="mainBox">
+            <p id="heading">UPDATED ATTENDANCE</p>
+        
+            <div class="second_heading">
+                
+                
+            </div>
+            <div class="input_box">
+                <p id="first_coloumn">Current Attendance</p>
+                <input type="text" placeholder="Ex-95.56" class="take_percentage">
+                <p id="second_coloumn">Total Classes</p>
+                <input type="text" placeholder="Ex-243" class="total_classes">        
+            </div>
+            <div class="choice">
+                <input type="radio" name="choice" id="choice1" value="Skip Classes">
+                <label for="choice1">Skip Classes</label>
+            
+                <input type="radio" name="choice" id="choice2" value="Take Classes">
+                <label for="choice2">Take Classes</label>
+            </div>
+            <div class="input_class">
+                <p id="new_class_text">How Many Classes</p>
+                <input type="text" placeholder="Ex-24" id="new_class">
+            </div>
+            <div class="outputBox">
+                <button class="btn">Get Attendance</button>
+                <input readonly class="updatedAttendence" placeholder="Eg-91.33%">
+            </div>
+            
+        </div>
+        <h1>Proudly Made with ❤️ For NIET'ians By Sunny</h1>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
